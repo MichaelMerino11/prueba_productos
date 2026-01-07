@@ -1,0 +1,108 @@
+/* Estilos Globales */
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #f4f7f6;
+  color: #2c3e50;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+#app {
+  width: 100%;
+  max-width: 900px;
+}
+
+h1 {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  border-bottom: 2px solid #42b883; /* Color verde Vue */
+  padding-bottom: 8px;
+  margin-top: 2rem;
+}
+
+/* Contenedores de Sección */
+section {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+}
+
+/* Formulario */
+form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  align-items: end;
+}
+
+input {
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #42b883;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #42b883;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #33a06f;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th {
+  background-color: #f8f9fa;
+  text-align: left;
+  padding: 12px;
+  font-weight: 600;
+  color: #666;
+  border-bottom: 2px solid #eee;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background-color: #fafafa;
+}
+
+/* Utilidades para números */
+td:nth-child(2),
+td:nth-child(3) {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}

@@ -53,7 +53,7 @@ onMounted(loadProducts);
 
     <section>
       <h2>Listado</h2>
-      <table border="1" width="100%">
+      <table class="product-table" width="100%">
         <thead>
           <tr>
             <th>Nombre</th>
